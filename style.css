@@ -1,0 +1,151 @@
+body{
+    font-family: 'Arial Black', sans-serif;
+    color: #fa9549;
+    background-color: #282828;
+}
+#PowerCalculatorBox{
+    position: relative;
+    width: 350px;
+    height: 530px;
+    background-color: #414141;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.underline{
+    position: absolute;
+    background-color: #fa9549;
+    color: #fa9549;
+    border: 0px;
+    width: 250px;
+    height: 1px;
+    left: 50px;
+    top: 340px;
+}
+
+#Logo{
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    left: 25px;
+    top: 25px;
+    border: 0px;
+}
+
+.InitPowerPanel{
+    position: absolute;
+    width: 250px;
+    left: 50px;
+}
+
+#InitPowerText{
+    top: 140px;
+}
+
+#InitPowerBox{
+    background-color: #282828;
+    border-radius: 5px;
+    border: 0px;
+    top: 190px;
+    height: 30px;
+    font-size: 18px;
+    color: #fa9549;
+}
+
+
+
+.OverclockSliderClass{
+    position: absolute;
+    width: 100%;
+    
+}
+
+/* The slider itself */
+#slider {
+    left: 50px;
+    top: 250px;
+    -webkit-appearance: none;
+    width: 250px;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+#slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+
+#slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+border-radius: 50%; 
+background: #fa9549;
+cursor: pointer;
+}
+
+#slider::-moz-range-thumb {
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background: #fa9549;
+cursor: pointer;
+}
+
+
+
+
+#OverclockOutput{
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    left: 50px;
+    top: 300px;
+    font-size: 24;
+}
+
+
+
+.ResultOutput{
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    left: 50px;
+    height: 20px;
+    font-size: 20;
+}
+
+#OutputTitle{
+    top: 365px;
+}
+
+#OutputDisplay{
+    top: 400px;
+}
+
+#CalculateButton{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 50px;
+    top: 440px;
+    border-radius: 5px;
+    background-color: #fa9549;
+    color: #282828;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 20;
+    border: 0px;
+    opacity: 0.7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#CalculateButton:hover{
+    opacity: 1;
+}

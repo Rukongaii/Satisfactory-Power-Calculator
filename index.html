@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type="text/css" href="style.css">
+		<title>Satisfactory Power Calculator</title>
+    </head>
+    <body>
+        <div id = "PowerCalculatorBox">
+
+            <img src="Ficsit_logo_new.png" alt="Ficsit Logo" id="Logo">
+
+
+            <div id="InitPowerPanel">
+                <div class="InitPowerPanel" id="InitPowerText">Initial Power Concumption(in MW):</div>
+                <input  type="number" class="InitPowerPanel" id="InitPowerBox"></input>
+            </div>
+            
+
+            <div id="OverclockSliderPanel">
+                <input oninput="updateSlider()" type="range" min="1" max="250" value="100" class= "OverclockSliderClass" id="slider">
+
+                <div id = "OverclockOutput">100 %</div>
+                <hr class="underline">
+            </div>
+            
+
+            <div id="ResultOutput">
+                <div class="ResultOutput" id = "OutputTitle">Power Consumption</div>
+                <div class="ResultOutput" id = "OutputDisplay">----</div>
+            </div>
+              
+
+            <div id = "Buttons">
+                <button onclick="calculatePowerConsumption()" class="button" id="CalculateButton">CALCULATE</button>
+            </div>
+
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
